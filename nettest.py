@@ -1,4 +1,4 @@
-import speedtest
+import speedtest #pip install speedtest-cli 
 import pickle as p
 st=speedtest.Speedtest()
 servernames=[]
