@@ -1,4 +1,4 @@
-import pickle as p
+import pickle as p #used to encrypt your data
 import tkinter.messagebox as mb
 import os 
 from  tkinter import *
@@ -20,8 +20,6 @@ def process():
     mb.showinfo(" process call","your internet speedtest is processing  it may take 25 sec ")
     call()
     root.destroy()
-def dsc():
-    root2.destory()
 
 root=Tk()
 root.geometry("200x100")
@@ -31,7 +29,7 @@ root.mainloop()
 root2=Tk()
 root2.title("history")
 v1=Button(root2,text="wanna see your history ?",command=history1)
-v2=Button(root2,text="quit?",command=dsc)
+v2=Button(root2,text="quit?",command=root2.destory)
 v1.pack(side=RIGHT)
 v2.pack(side=LEFT)
 root2.mainloop()
