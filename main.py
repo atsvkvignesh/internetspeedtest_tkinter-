@@ -5,7 +5,7 @@ from  tkinter import *
 val=[]
 def call():
     global val
-    os.system("python3 Desktop/nettest.py")
+    os.system("python3 nettest.py") #give your file path 
     with open("nettesttxt.dat","rb") as fo3 :
         l=len(fo3.read())
         fo3.seek(0)
