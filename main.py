@@ -1,5 +1,5 @@
-import pickle as p #used to encrypt your data
-import tkinter.messagebox as mb
+import pickle as p #serializing and de-serializing data 
+import tkinter.messagebox as mb 
 import os 
 from  tkinter import *
 val=[]
